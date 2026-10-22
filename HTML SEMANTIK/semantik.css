@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color:black;
+}
+.site-header{
+    padding: 48px 24px;
+    background: linear-gradient(135deg, blue, white);
+    color: white;
+    text-align: center;
+} 
+
+
+.navbar ul{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 14px;
+    background: #111827;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.navbar a:hover,
+.navbar a[aria-current="page"] {
+    background: #2563eb;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 24px;
+}
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+.card {
+    border: 1px solid #f8f8f8;
+    border-radius: 14px;
+    padding: 18px;
+    background: bisque;
+}
+
+.foto_emyu{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
